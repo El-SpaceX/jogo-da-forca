@@ -1,0 +1,140 @@
+/*
+Código nosso que está em C
+Santificado seja vós, console
+Venha nos o vosso array[10]
+E seja feita, sim, {vossa chave}
+Assim no if{
+} Como no Else{
+} 
+O for(nosso;de cada dia;nos daí hoje++)
+Debugai as nossas sentenças 
+Assim como nós colocamos o ponto e vírgula esquecido;
+E não nos
+     Deixeis errar
+             Indentação
+Mas livrai-nos das funções recursivas
+A main ().
+*/
+
+#ifndef INC_WORDS_H
+#define INC_WORDS_H
+
+
+//palavras geradas pelo Chat-GPT
+char* words[][2] = {
+    {"abacaxi", "Fruta tropical"},
+    {"biciclo", "Veiculo de duas rodas"},
+    {"cachorro", "Animal de estimacao"},
+    {"dicionario", "Livro de palavras e significados"},
+    {"elefante", "Animal de grande porte"},
+    {"felicidade", "Estado de contentamento"},
+    {"girassol", "Flor que acompanha o sol"},
+    {"helicoptero", "Aeronave de asas rotativas"},
+    {"internet", "Rede mundial de computadores"},
+    {"jacare", "Reptil semelhante a um crocodilo"},
+    {"kiwi", "Fruta de origem neozelandesa"},
+    {"limonada", "Bebida de limao e agua"},
+    {"macaco", "Animal agil e brincalhao"},
+    {"nascimento", "Momento de chegada ao mundo"},
+    {"ovelha", "Animal criado para la e carne"},
+    {"pipoca", "Milho estourado e salgado"},
+    {"quadro", "Obra de arte pintada"},
+    {"refrigerante", "Bebida gaseificada"},
+    {"sapato", "Calcado para os pes"},
+    {"telefone", "Aparelho de comunicacao"},
+    {"urso", "Animal peludo e fofo"},
+    {"vassoura", "Utilizada para limpar o chao"},
+    {"xicara", "Recipientes para bebidas"},
+    {"yoga", "Pratica de meditacao e exercicios"},
+    {"zebra", "Animal com listras pretas e brancas"},
+    {"alface", "Folha verde usada em saladas"},
+    {"banana", "Fruta amarela e doce"},
+    {"cavalo", "Animal de quatro patas"},
+    {"dinossauro", "Reptil pre-historico"},
+    {"escada", "Conjunto de degraus para subir"},
+    {"foguete", "Veiculo espacial"},
+    {"gato", "Animal domestico"},
+    {"hamburguer", "Sanduiche de carne"},
+    {"igreja", "Local de culto religioso"},
+    {"jardim", "Area com plantas e flores"},
+    {"kiwi", "Fruta de origem neozelandesa"},
+    {"limao", "Fruta acida"},
+    {"mamute", "Animal pre-historico"},
+    {"navio", "Embarcacao maritima"},
+    {"ostra", "Molusco de concha dura"},
+    {"pipoca", "Milho estourado e salgado"},
+    {"queijo", "Produto derivado do leite"},
+    {"rosa", "Flor colorida e perfumada"},
+    {"sapato", "Calcado para os pes"},
+    {"tartaruga", "Reptil de casco duro"},
+    {"urso", "Animal peludo e fofo"},
+    {"ventilador", "Aparelho para refrescar o ambiente"},
+    {"waffle", "Tipo de massa cozida"},
+    {"xadrez", "Jogo de tabuleiro"},
+    {"yoga", "Pratica de meditacao e exercicios"},
+    {"zangado", "Sentimento de raiva"},
+    {"amora", "Fruta roxa e doce"},
+    {"baleia", "Mamifero marinho"},
+    {"cafe", "Bebida quente e estimulante"},
+    {"dado", "Objeto cubico para jogos"},
+    {"escova", "Utensilio para pentear o cabelo"},
+    {"futebol", "Esporte com bola e gols"},
+    {"girafa", "Animal de pescoco longo"},
+    {"helicoptero", "Aeronave de asas rotativas"},
+    {"ilha", "Porcao de terra cercada por agua"},
+    {"janela", "Abertura em uma parede"},
+    {"ketchup", "Molho de tomate"},
+    {"lua", "Satelite natural da Terra"},
+    {"mochila", "Saco usado para carregar objetos"},
+    {"nuvem", "Conjunto de particulas de agua no ar"},
+    {"olho", "Orgao da visao"},
+    {"pipoca", "Milho estourado e salgado"},
+    {"queijo", "Produto derivado do leite"},
+    {"raio", "Descarga eletrica atmosferica"},
+    {"sapato", "Calcado para os pes"},
+    {"tartaruga", "Reptil de casco duro"},
+    {"urso", "Animal peludo e fofo"},
+    {"ventilador", "Aparelho para refrescar o ambiente"},
+    {"waffle", "Tipo de massa cozida"},
+    {"xadrez", "Jogo de tabuleiro"},
+    {"yoga", "Pratica de meditacao e exercicios"},
+    {"zangado", "Sentimento de raiva"},
+    {"amora", "Fruta roxa e doce"},
+    {"baleia", "Mamifero marinho"},
+    {"cafe", "Bebida quente e estimulante"},
+    {"dado", "Objeto cubico para jogos"},
+    {"escova", "Utensilio para pentear o cabelo"},
+    {"futebol", "Esporte com bola e gols"},
+    {"sol", "Estrela central do sistema solar"},
+    {"tigre", "Animal felino de grande porte"},
+    {"oceano", "Grande extensao de água"},
+    {"lula", "Maior ladrao do Brasil."},
+    {"girafa", "Animal de pescoco longo"},
+    {"helicoptero", "Aeronave de asas rotativas"},
+    {"ilha", "Porcao de terra cercada por agua"},
+    {"janela", "Abertura em uma parede"},
+    {"ketchup", "Molho de tomate"},
+    {"lua", "Satelite natural da Terra"},
+    {"mochila", "Saco usado para carregar objetos"},
+    {"nuvem", "Conjunto de particulas de agua no ar"},
+    {"olho", "Orgao da visao"},
+    {"pipoca", "Milho estourado e salgado"},
+    {"queijo", "Produto derivado do leite"},
+    {"raio", "Descarga eletrica atmosferica"},
+    {"sapato", "Calcado para os pes"},
+    {"tartaruga", "Reptil de casco duro"},
+    {"urso", "Animal peludo e fofo"},
+    {"ventilador", "Aparelho para refrescar o ambiente"},
+    {"waffle", "Tipo de massa cozida"},
+    {"xadrez", "Jogo de tabuleiro"},
+    {"yoga", "Pratica de meditacao e exercicios"},
+    {"ferro", "Elemento químico"},
+    {"galo", "Ave de canto característico"},
+    {"hotel", "Estabelecimento de hospedagem"},
+    {"inverno", "Estação do ano"},
+    {"jazz", "Gênero musical"},
+    {"karate", "Arte marcial japonesa"},
+    {"lapis", "Instrumento de escrita"},
+    {"zangado", "Sentimento de raiva"}
+};
+#endif
