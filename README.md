@@ -1,2 +1,10 @@
-# jogo-da-forca
-Eu estou estudando um pouco de C e esse foi um projeto que usei para treinar um pouco, é um jogo da forca simples pelo terminal.
+# Informações
+
+Bem, esse foi um projeto feito por mim com a intenção de aprender um pouco de C, o que realmente aconteceu, aprendi algumas coisas nisso e treinar outras também.  
+E meu primeiro codigo praticamente, entao nao julgue se estiver muito cagado, mas qualquer critica e sugestão é bem vinda. :D
+
+
+# Imagens
+![imagem.png](assets/image.png)
+
+
